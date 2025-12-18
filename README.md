@@ -56,40 +56,41 @@ The **Job Recruitment Platform** is a comprehensive mobile solution that streaml
 ### 🔐 Authentication & Onboarding
 
 <div align="center">
-  <img src="screenshots/1_login_screen.png" width="280" alt="Login Screen" />
-  <img src="screenshots/2_signup_screen.png" width="280" alt="Signup Screen" />
-  <img src="screenshots/3_role_selection.png" width="280" alt="Role Selection" />
+  <img src="screenshots/sign_in.png" width="280" alt="Sign In" />
+  <img src="screenshots/sign_up_form.png" width="280" alt="Sign Up Form" />
+  <img src="screenshots/role.png" width="280" alt="Role Selection" />
 </div>
 
 **Login & Registration**
 - Secure email-based authentication
 - Role selection (Job Seeker / Employer)
 - Password validation and error handling
+- Smooth onboarding experience
 
 ---
 
-### 👨‍💼 Job Seeker Dashboard
+### 👨‍💼 Job Seeker - Job Search & Applications
 
 <div align="center">
-  <img src="screenshots/4_job_listing.png" width="280" alt="Job Listing" />
-  <img src="screenshots/5_job_detail.png" width="280" alt="Job Detail" />
-  <img src="screenshots/6_apply_job.png" width="280" alt="Apply to Job" />
+  <img src="screenshots/jobs.png" width="280" alt="Job Listing" />
+  <img src="screenshots/job_details.png" width="280" alt="Job Details" />
+  <img src="screenshots/applicant_applying.png" width="280" alt="Applying to Job" />
 </div>
 
 **Finding & Applying to Jobs**
 - Browse all available job listings
-- View detailed job information
+- View detailed job information with requirements
 - Filter by location, job type, and salary
 - Apply with one click
+- Real-time application submission
 
 ---
 
-### 📋 Job Seeker - Applications & Profile
+### 📋 Job Seeker - Profile & Application Tracking
 
 <div align="center">
-  <img src="screenshots/7_my_applications.png" width="280" alt="My Applications" />
-  <img src="screenshots/8_application_status.png" width="280" alt="Application Status" />
-  <img src="screenshots/9_profile_setup.png" width="280" alt="Profile Setup" />
+  <img src="screenshots/applicant_profile.png" width="280" alt="Job Seeker Profile" />
+  <img src="screenshots/secured_a_job.png" width="280" alt="Application Success" />
 </div>
 
 **Application Tracking & Profile Management**
@@ -97,23 +98,40 @@ The **Job Recruitment Platform** is a comprehensive mobile solution that streaml
 - Track status (Pending, Accepted, Rejected)
 - Manage personal profile and skills
 - Update professional information
+- Celebrate job acceptances! 🎉
 
 ---
 
-### 🏢 Employer Dashboard
+### 🏢 Employer - Company & Job Management
 
 <div align="center">
-  <img src="screenshots/10_employer_dashboard.png" width="280" alt="Employer Dashboard" />
-  <img src="screenshots/11_view_applicants.png" width="280" alt="View Applicants" />
-  <img src="screenshots/12_post_job.png" width="280" alt="Post Job" />
+  <img src="screenshots/company_profile.png" width="280" alt="Company Profile" />
+  <img src="screenshots/post_a_job.png" width="280" alt="Post a Job" />
+  <img src="screenshots/employer_dashboard.png" width="280" alt="Employer Dashboard" />
+</div>
+
+**Company Setup & Job Posting**
+- Create comprehensive company profiles
+- Post detailed job listings
+- Manage multiple job openings
+- Track all posted jobs from dashboard
+- Easy job creation form
+
+---
+
+### 👔 Employer - Applicant Management
+
+<div align="center">
+  <img src="screenshots/employer_profile.png" width="280" alt="Employer Profile" />
+  <img src="screenshots/applicant_profile.png" width="280" alt="Applicant Profile" />
 </div>
 
 **Recruitment Management**
-- Create company profile
-- Post and manage job listings
-- Review all applicants
+- Review applicant profiles and details
+- View applicant resumes
 - Accept or reject applications
-- Track recruitment metrics
+- Track application decisions
+- Manage company information
 
 ---
 
@@ -146,6 +164,7 @@ lib/
 │   ├── edit_employer_profile_screen.dart
 │   ├── employer_dashboard.dart
 │   ├── employer_home.dart
+│   ├── employer_profile_screen.dart
 │   ├── post_job_screen.dart
 │   └── view_applicants_screen.dart
 │
